@@ -1,0 +1,10 @@
+*** /dev/null
+--- /dev/null
+***************
+*** 9,11
+- 
+- /* user printk */
+- int printf(const char *fmt, ...);
+--- 9,10 -----
++ int prints(const char *fmt, ...);
++ int vprints(const char *fmt, va_list va);
